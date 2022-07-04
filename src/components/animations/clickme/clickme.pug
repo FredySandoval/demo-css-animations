@@ -1,0 +1,12 @@
+link(rel="stylesheet", href="/src/components/animations/clickme/darkbutton.css")
+link(rel="stylesheet", href="/src/components/animations/clickme/rotateimage.css")
+script(src="/src/components/animations/clickme/rotate-image.ts") 
+script(src="/src/components/animations/clickme/darkbutton.ts") 
+
+.clickme( onclick="toggleClass(this, 'rotate'); handleClick()")
+    .flip-card
+        .flip-card-inner
+            .flip-card-front
+                img(src='/src/components/animations/clickme/images/light.png' alt='Avatar')
+            .flip-card-back
+                img(src='/src/components/animations/clickme/images/dark.png' alt='Avatar')

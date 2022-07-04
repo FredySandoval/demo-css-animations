@@ -1,0 +1,21 @@
+#sprite-container {
+    
+    display: block;
+    /* border: 1px solid rgb(118, 255, 90); */
+    height: 100%;
+    background-image: url('images/css_sprites.png') ;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* animation: sprite 1s steps(8)  infinite; */
+    background-position: -0px;
+}
+#sprite-container.lazy {
+        background-image: none;
+        background-color: #F1F1FA;
+}
+@keyframes sprite {
+    100% {
+        background-position: -3184px;
+    }
+} 

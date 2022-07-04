@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 1100px;
+    margin-top: 15px;
+}
+
+.wrapper-row {
+    display: flex;
+    /* set in columns */
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.box-container {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-container.left {
+    padding-right: 5px;
+}
+
+.box-container.right {
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper-row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .box-container.left {
+        padding-right: 3px;
+        margin-bottom: 8px;
+    }
+
+    .box-container.right {
+        padding-left: 3px;
+        margin-bottom: 8px;
+    }
+}
+p.message {
+    color: var(--gray-4);
+    z-index: 15;
+}

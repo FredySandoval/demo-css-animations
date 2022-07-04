@@ -1,0 +1,26 @@
+.computer1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.monitor {
+    background: url('images/monitor.png') center;
+}
+.case {
+    background: url('images/case.png') center;
+}
+.keyboard {
+    background: url('images/keyboard.png') center;
+}
+.floor {
+    background: url('images/floor.png') center;
+}
+
+.computer1 > div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

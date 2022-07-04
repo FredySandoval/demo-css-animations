@@ -1,0 +1,47 @@
+link(rel="stylesheet", href="/src/components/organisms/css/main-style.css")
+link(rel="stylesheet", href="/src/components/organisms/css/image-box.css")
+.main
+    .wrapper
+        .wrapper-row 
+            .box-container.left
+                .image-box 
+                    p.message Pure CSS Animation on Hover 
+                    .box
+                        include /components/animations/newanimation/newanimation.pug
+            .box-container.right
+                .image-box
+                    p.message PNG Animation on scroll
+                    .box
+                        include /components/animations/movingsquares/movingsquares.pug
+        .wrapper-row 
+            .box-container.left
+                .image-box 
+                    p.message Hover ME! to stop me.
+                    .box
+                        include /components/animations/hoverme/hoverme.pug
+            .box-container.right
+                .image-box
+                    p.message CSS Sprite Animation on scroll
+                    .box 
+                        include /components/animations/spritescss/spritescss.pug
+        .wrapper-row 
+            .box-container.left
+                .image-box 
+                    p.message Click Me! to change dark/light mode.
+                    .box
+                        include /components/animations/clickme/clickme.pug
+            .box-container.right
+                .image-box
+                    p.message GIF Animation
+                    .box
+                        include /components/animations/gifanimation/gifanimation.pug
+        .wrapper-row 
+            .box-container.left
+                .image-box 
+                    p.message CSS animations
+                    .box
+                        include /components/animations/menu3d/menu3d.pug
+            .box-container.right
+                .image-box
+                    p.message
+                    .box

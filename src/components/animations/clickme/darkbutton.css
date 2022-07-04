@@ -1,0 +1,16 @@
+html {
+  --bg: rgb(255, 255, 255);
+  --color: #18191b;
+  --background-hoverEffect: rgba(0, 0, 0, 0.123);
+
+}
+
+html:not(.style-scope)[theme=dark] {
+  --bg: #18191b;
+  --color: rgb(255, 255, 255);
+  --background-hoverEffect: rgba(255, 255, 255, 0.123);
+}
+
+body {
+  background-color: var(--bg);
+}

@@ -1,0 +1,114 @@
+.wrapper-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.demo-container {
+    height: 100%;
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    border-radius: 10px;
+
+    position: relative;
+}
+@media screen and (max-width: 900px) {
+ .demo-container {
+    width: 100%;
+    min-width: 300px;
+  }
+}
+
+.demo-container>img {
+    width: 100%;
+    position: absolute;
+    filter: opacity(1) ;
+}
+
+.kenburns-top {
+    -webkit-animation: kenburns-bottom 20s ease-in-out infinite alternate-reverse both;
+    animation: kenburns-bottom 20s ease-in-out infinite alternate-reverse both;
+    transform-origin: 50% 100%;
+}
+
+.image-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imagetext.title {
+    background-image: url('../images/text-voxel-demo-animations.png');
+    -webkit-animation: hue-rotate-animation 8s infinite;
+    animation: hue-rotate-animation  8s infinite;
+    /* filter: hue-rotate(0deg) opacity(0.6); */
+}
+
+.imagetext.author {
+    background-image: url('../images/text-by-fredy-sandoval.png');
+    filter: opacity(0.6);
+}
+
+.imagetext {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes kenburns-bottom {
+    0% {
+        /* -webkit-transform: translateY(0); */
+        /* transform: translateY(0); */
+        transform: scale(3);
+    }
+
+    100% {
+        /* -webkit-transform: translateY(-70%); */
+        /* transform: translateY(-70%); */
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes hue-rotate-animation {
+    0% {
+        -webkit-filter: hue-rotate(0deg) opacity(0.7);
+    }
+
+    50% {
+        -webkit-filter: hue-rotate(360deg) opacity(0.7);
+    }
+
+    100% {
+        -webkit-filter: hue-rotate(0deg) opacity(0.7);
+    }
+}
+
+@keyframes hue-rotate-animation {
+    0% {
+        filter: hue-rotate(0deg) opacity(0.7);
+    }
+
+    50% {
+        filter: hue-rotate(360deg) opacity(0.7);
+    }
+
+    100% {
+        filter: hue-rotate(0deg) opacity(0.7);
+    }
+}
+.line {
+    margin-top: 15px;
+    border-top: 1px solid rgb(196, 196, 196);
+
+}
