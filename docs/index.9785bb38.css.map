@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.9785bb38.css","src/components/animations/gifanimation/gifanimation.css"],"sourcesContent":["img.gifanimation {\n  height: 100%;\n}\n\n/*# sourceMappingURL=index.9785bb38.css.map */\n","img.gifanimation {\n    height: 100%;\n}"],"names":[],"version":3,"file":"index.9785bb38.css.map"}
