@@ -9,7 +9,7 @@
   "targets": {
     "default": {
       "distDir": "./docs",
-      "publicUrl": "/"
+      "publicUrl": "/demo-css-animations"
     }
   },
   "keywords": [],
