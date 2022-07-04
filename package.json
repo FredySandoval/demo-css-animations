@@ -6,6 +6,12 @@
     "dev": "pnpm exec parcel ./src/index.pug",
     "build": "pnpm exec parcel build ./src/index.pug"
   },
+  "targets": {
+    "default": {
+      "distDir": "./docs",
+      "publicUrl": "/"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
